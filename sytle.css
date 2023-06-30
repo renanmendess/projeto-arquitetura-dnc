@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+    
+}
+
+#parte-superior{
+    width: 1519px;
+    height: 500px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+#titulo-principal{
+    width: 1024px;
+    height: 72px;
+    padding-top: 206px;
+    margin-left: 62px;
+    font-size: 55px;    
+}
+
+#subtitulo{
+    width: 1024px;
+    height: 28px;
+    margin-left:62px;
+    margin-top: 2px;
+    font-size: 20px;    
+}
+
+#texto-informativo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1519px;
+    height: 229px;
+    margin-top: -42px;
+}
+
+.informacao{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+#historia{
+    display: grid;
+    columns: auto;
+    grid-auto-flow: column;    
+}
+
+#titulo-historia{
+    font-size: 35px;    
+}
+
+#texto-historia{
+    margin-left: 77px;
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+#foto{
+    width: 510px;
+    height: 605px;
+    margin-top: 70px;
+    flex-shrink: 1;
+}
+
+#formulario{
+    text-align: center;
+    font-size: 15px;
+    background-color: #303030;
+    color: #FFF;
+    padding: 55px;
+    
+    
+}
+
+#titulo-formulario{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+ 
+input{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    padding-left: 15px;
+    font-family: "raleway";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #000000;
+    }
+
+    button{
+        width: 286px;
+        height: 74px;
+        flex-shrink: 1;
+        margin-top:25px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        border: 0px;
+        background-color:#C07212;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgb(238, 153, 48);
+        transform: translateY(-12px);
+        box-shadow: 0px 15px 20px rgba(183, 123, 50, 0.714);
+        transition-duration: 0.5s;
+    }
